@@ -29,6 +29,7 @@ if (process.env.ANALYZE_BUNDLE) {
 export default defineConfig({
   server: {
     open: true,
+    port: process.env.PORT || 3000,
   },
   plugins: [
     react(),
