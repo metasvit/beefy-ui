@@ -6,12 +6,6 @@ phases:
       nodejs: 20.x
     commands:
       - yarn
-  build:
-    commands:
-      - yarn build-only
 artifacts:
   files:
-    - 'dist/**/*'
-cache:
-  paths:
-    - 'node_modules/**/*'
+    - '**/*'
