@@ -8,7 +8,7 @@ phases:
       - yarn
   build:
     commands:
-      - yarn build
+      - yarn build-only
 artifacts:
   files:
     - 'dist/**/*'
