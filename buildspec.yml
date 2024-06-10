@@ -8,7 +8,7 @@ phases:
       - yarn
   build:
     commands:
-      - yarn build-only
+      - NODE_OPTIONS=--max-old-space-size=4096 yarn build-only
 
 artifacts:
   files:
