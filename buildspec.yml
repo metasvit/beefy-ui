@@ -11,5 +11,6 @@ phases:
       - NODE_OPTIONS=--max-old-space-size=4096 yarn build-only
 
 artifacts:
+  base-directory: build
   files:
-    - 'build/**/*'
+    - '**/*'
