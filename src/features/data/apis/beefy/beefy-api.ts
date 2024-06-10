@@ -9,7 +9,7 @@ import type { TreasuryCompleteBreakdownConfig } from '../config-types';
 import type { ChainEntity } from '../../entities/chain';
 import type { AllCowcentradedVaultRangesFullfiledPayload } from '../../actions/tokens';
 
-export const API_URL = import.meta.env.VITE_API_URL || 'https://api.beefy.finance';
+export const API_URL = import.meta.env.VITE_API_URL || 'http://beefy-api-env.eba-ieaxdyk2.us-east-1.elasticbeanstalk.com';
 export const API_ZAP_URL = import.meta.env.VITE_API_ZAP_URL || `${API_URL}/zap`;
 
 export type ApyPerformanceFeeData = {
